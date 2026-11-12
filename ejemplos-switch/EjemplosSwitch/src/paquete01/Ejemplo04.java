@@ -6,6 +6,7 @@
 package paquete01;
 
 import java.util.Scanner;
+import java.util.Locale;
 
 /**
  *
@@ -16,6 +17,8 @@ public class Ejemplo04 {
     public static void main(String[] args) {
         //
         Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
+        
         int opcion;
         double radianes;
         double resultado;
