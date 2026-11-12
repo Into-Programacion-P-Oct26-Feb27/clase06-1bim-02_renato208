@@ -45,3 +45,8 @@ public class Ejemplo03 {
         
     }
 }
+
+/*
+El string format sirve para poder amontonar o agrupar cadenas en una sola 
+variable. Esto es parecido a un printf, pero más reducido.
+*/
